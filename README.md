@@ -18,3 +18,8 @@ This application employs flask to use NEWS api to display different news sources
 
 - Flask
 -Python 3.6
+
+## License 
+
+MIT License
+Copyright 2020 | Stella
