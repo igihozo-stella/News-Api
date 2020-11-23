@@ -17,7 +17,7 @@ This application employs flask to use NEWS api to display different news sources
 ## Technologies used
 
 - Flask
--Python 3.6
+- Python 3.6
 
 ## License 
 
