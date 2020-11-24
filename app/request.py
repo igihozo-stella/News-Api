@@ -7,6 +7,7 @@ News_Article=article_news.News_Article
 # Getting api key
 api_key = app.config['NEWS_API_KEY']
 
+
 #Getting the movie base url
 base_url=app.config['SOURCE_NEWS_URL']
 article_url=app.config['ARTICLE_NEWS_URL']
@@ -16,6 +17,7 @@ def get_sources(category):
     #Function that gets json response to our url request
     
     get_sources_url = base_url.format(category,api_key)
+    print(get_sources_url)
 
     with urllib.request.urlopen(get_sources_url) as url:
         get_sources_data = url.read()
